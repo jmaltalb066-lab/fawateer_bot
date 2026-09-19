@@ -1,1 +1,0 @@
-import os;from telegram.ext import ApplicationBuilder,CommandHandler;ApplicationBuilder().token(os.environ.get('TOKEN')).build().add_handler(CommandHandler('start',lambda u,c:u.message.reply_text('مرحبا جمال'))).run_polling()
